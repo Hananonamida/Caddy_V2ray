@@ -1,9 +1,9 @@
-# Caddy V2ray SSL TSL Websocket 整合镜像
+# Caddy V2ray SSL TSL Websocket 整合镜像 Arm版本
 
 [![Build Docker Images](https://github.com/anerg2046/Caddy_V2ray/actions/workflows/workflow.yaml/badge.svg)](https://github.com/anerg2046/Caddy_V2ray/actions/workflows/workflow.yaml)
 
 ### 环境需求：
-- 一台运行docker的主机
+- 一台运行docker的主机，仅限ARM
 - 一个域名，可以是二级域名，并已解析A记录到你的主机IP
 - 一个邮箱地址，用于caddy申请SSL证书，如果不填将不会申请证书，且caddy只监听80端口
 
