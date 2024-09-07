@@ -15,9 +15,11 @@ if [ -z $DOMAIN ];then
 fi
 
 if [ ! -e "/etc/caddy/Caddyfile" ];then
-    WS_PATH="`echo $RANDOM | md5sum | cut -c 3-11`"
+#    WS_PATH="`echo $RANDOM | md5sum | cut -c 3-11`"
+    WS_PATH=$WS_PATH
     WS_PORT=$(($RANDOM+1234))
-    UUID=$(uuidgen)
+#    UUID=$(uuidgen)
+    UUID=$UUID
 
     if [ -z $EMAIL ];then
         cp -f /conf/caddy/http.Caddyfile /etc/caddy/Caddyfile
