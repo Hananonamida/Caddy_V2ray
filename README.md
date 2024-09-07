@@ -32,8 +32,8 @@ docker run -d \
   --env=DOMAIN=v2.mooim.com \
   --env=EMAIL=r.anerg@gmail.com \
   --env=EMAIL=r.anerg@gmail.com \
-  --env=WS_PATH="/3c5d4d290/" \
-  --env=UUID="8a9420cf-c6dd-4d06-ae1d-5519ac8c082f" \
+  --env=WS_PATH=3c5d4d290 \
+  --env=UUID=8a9420cf-c6dd-4d06-ae1d-5519ac8c082f \
   --restart=always \
   --name=caddy_v2ray_arm \
   hananonamida/caddy_v2ray_arm:latest
